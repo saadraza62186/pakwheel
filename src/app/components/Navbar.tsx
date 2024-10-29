@@ -19,6 +19,7 @@ export default function Navbar() {
                 <p>Forums</p>
                 <p>Blog</p>
                 <p>More</p>
+                <p>Truck</p>
             </div>
             <div id='btn-post' className='text-white mr-4 flex items-center bg-red-800 rounded-lg p-3 h-9 mt-3.5' >
                 Post An Ad
