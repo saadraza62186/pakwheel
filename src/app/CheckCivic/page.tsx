@@ -1,6 +1,5 @@
 import React from "react";
 import "./page.css";
-import anyimage from "./assets/image.png";
 import Link from "next/link";
 
 export default function Page() {

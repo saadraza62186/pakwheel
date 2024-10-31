@@ -1,5 +1,4 @@
 import React from "react";
-import anyimage from "./assets/image.png";
 import Link from "next/link";
 
 export default function Card() {

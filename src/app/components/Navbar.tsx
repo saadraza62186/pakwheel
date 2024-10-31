@@ -1,7 +1,4 @@
 import React from 'react'
-import anyimage from "./assets/image.png"
-
-
 export default function Navbar() {
   return (
     <div>
