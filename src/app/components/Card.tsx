@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Card() {
   return (
@@ -16,11 +17,12 @@ export default function Card() {
           <div className="flex items-center">
           <Link href='/AboutCorolla'>
             <div className="bg-white h-36 w-[233px] ml-[150px] mt-5">
-              <div id="img" className="bg-white w-[233px] h-[175px]">
-                <img
-                  src={
-                    "Corolla-X-Cars-Cropped-Pictures-for-Website-removebg-preview.png"
-                  }
+              <div className="bg-white w-[233px] h-[175px]">
+                <Image
+                  src=
+                    "/Corolla-X-Cars-Cropped-Pictures-for-Website-removebg-preview.png"
+                  width={800}
+                  height={200}
                   alt=""
                 />
               </div>
@@ -35,7 +37,10 @@ export default function Card() {
             <Link href='/AboutAlto'>
             <div className="bg-white h-36 w-[233px] ml-[50px] mt-5">
               <div id="img" className="bg-white w-[233px] h-[175px]">
-                <img src={"Suzuki_Alto_-_PNG-removebg-preview.png"} alt="" />
+                <Image src="/Suzuki_Alto_-_PNG-removebg-preview.png"
+                width={800}
+                height={200}
+                alt="" />
               </div>
               <div className="bg-white h-[100px] w-[233px] flex flex-col justify-center items-center">
                 <h1 className="ml-2 text-[#233D78] font-bold">Suzuki Alto</h1>
@@ -46,7 +51,10 @@ export default function Card() {
             <Link href='/AboutHonda'>
             <div className="bg-white h-36 w-[233px] ml-[50px] mt-5">
               <div id="img" className="bg-white w-[233px] h-[175px]">
-                <img src={"Honda_City_Front-removebg-preview.png"} alt="" />
+                <Image src="/Honda_City_Front-removebg-preview.png" 
+                width={800}
+                height={200}
+                alt="" />
               </div>
               <div className="bg-white h-[100px] w-[233px] flex flex-col justify-center items-center">
                 <h1 className="ml-2 text-[#233D78] font-bold">Honda City</h1>
@@ -57,7 +65,10 @@ export default function Card() {
             <Link href='/AboutCivic'>
             <div className="bg-white h-36 w-[233px] ml-[50px] mt-5">
               <div id="img" className="bg-white w-[233px] h-[175px]">
-                <img src={"civic-removebg-preview.png"} alt="" />
+                <Image src="/civic-removebg-preview.png" 
+                width={800}
+                height={200}
+                alt="" />
               </div>
               <div className="bg-white h-[100px] w-[233px] flex flex-col justify-center items-center">
                 <h1 className="ml-2 text-[#233D78] font-bold">Honda Civic</h1>

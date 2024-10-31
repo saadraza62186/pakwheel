@@ -1,7 +1,7 @@
 import React from "react";
 import "./page.css";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Page() {
   return (
     <div id="main">
@@ -11,7 +11,7 @@ export default function Page() {
         </h1>
       </div>
       <div className="flex justify-center mt-5 h-[200px]">
-      <img src={"Alto-2.jpg"} alt="corolla pic" />
+      <Image src="/Alto-2.jpg" width={300} height={700} alt="corolla pic" />
       </div>
       <div className="ml-[200px] mr-[100px] mt-[40px] flex justify-center items-center flex-col">
         <h1>
